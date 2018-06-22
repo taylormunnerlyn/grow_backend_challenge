@@ -77,7 +77,7 @@ function looper(res) {
 
             console.log("resultsToShow length:");
             console.log(resultsToShow.length);
-        
+
             console.log("done looping");
 
             handleApiResponse(this_res);
@@ -123,7 +123,7 @@ function handleApiResponse(res) {
             if (nameA > nameB) {
                 return 1;
             }
-            
+
             // names must be equal
             return 0;
         };
@@ -131,7 +131,7 @@ function handleApiResponse(res) {
         function compareHeight(a, b) {
             return a.height - b.height;
         };
-        
+
         function compareMass(a, b) {
             return a.mass - b.mass;
         };
