@@ -13,4 +13,4 @@ go to any of these urls on your web browser and you will see the json data retur
     http://localhost:3000/people?sortBy=name
     http://localhost:3000/people?sortBy=mass
     http://localhost:3000/people?sortBy=height
-    http://localhost:3000/planets
+    http://localhost:3000/planets 
